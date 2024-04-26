@@ -1,0 +1,4 @@
+# config/_default/config.toml
+
+baseURL = "https://bitemo.xyz/"
+languageCode = "en"
