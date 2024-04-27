@@ -123,7 +123,7 @@
 
   <div class="relative flex flex-col grow" style="background-image: url('/images/bg_home_letter.png');">
     <img src="/images/bg_home_header.png" class="inset-0 -z-10 mx-auto my-auto" />
-    <main id="main-content" class="grow px-6" style="color: #CDCBCC">
+    <main id="main-content" class="grow px-6" style="color: #8D867F">
       {{ block "main" . }}{{ end }}
       {{ if and (.Site.Params.footer.showScrollToTop | default true) (gt .WordCount 1) }}
       {{- partial "scroll-to-top.html" . -}}
