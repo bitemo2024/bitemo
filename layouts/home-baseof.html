@@ -35,6 +35,18 @@
               3px -3px 0 #807E83;
         }
 
+        .animate-breath {
+            animation: breath 3s ease-in-out infinite;
+        }
+        @keyframes breath {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
         @media (max-width: 768px) {
             #logo-section {
                 top: 28px;
@@ -75,7 +87,7 @@
             <div id="text-section" class="flex flex-col items-start w-full md:w-1/2 text-left relative px-4">
                 <div class="relative">
                     <h1 id="main-title" class="text-white text-[55px] font-bold leading-tight text-shadow3">Bite-Size Emotions<br>Infinite Healing</h1>
-                    <img src="/sunshine.png" alt="Floating image" class="floating-image">
+                    <img src="/sunshine.png" alt="Floating image" class="floating-image animate-breath">
                 </div>
                 <p id="main-paragraph" class="text-white mt-6 leading-relaxed text-shadow text-[16px]">
                     Hey There,<br>
